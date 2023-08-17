@@ -1,0 +1,7 @@
+[ 2023-08-17 12:09:48,510 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-17 12:09:48,558 ] 187 werkzeug - INFO -  * Debugger PIN: 452-515-414
+[ 2023-08-17 12:09:48,644 ] 95 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:09:48,645 ] 63 root - INFO - Exporting data from mongodb
+[ 2023-08-17 12:09:49,737 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\http\\server.py', reloading
+[ 2023-08-17 12:09:49,775 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\socketserver.py', reloading
+[ 2023-08-17 12:09:49,865 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\threading.py', reloading

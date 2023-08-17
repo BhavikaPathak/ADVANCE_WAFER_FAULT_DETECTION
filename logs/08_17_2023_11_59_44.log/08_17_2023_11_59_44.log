@@ -1,0 +1,5 @@
+[ 2023-08-17 11:59:48,252 ] 95 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 11:59:48,252 ] 63 root - INFO - Exporting data from mongodb
+[ 2023-08-17 11:59:51,654 ] 72 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-08-17 11:59:51,761 ] 101 root - INFO - Got the data from mongodb
+[ 2023-08-17 11:59:51,762 ] 104 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class

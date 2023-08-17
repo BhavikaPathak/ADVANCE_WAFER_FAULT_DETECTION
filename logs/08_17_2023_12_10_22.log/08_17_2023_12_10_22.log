@@ -1,0 +1,6 @@
+[ 2023-08-17 12:10:28,492 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-17 12:10:28,522 ] 187 werkzeug - INFO -  * Debugger PIN: 452-515-414
+[ 2023-08-17 12:10:30,520 ] 73 root - INFO - Exception Occured in load_object function utils
+[ 2023-08-17 12:10:30,786 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:10:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-08-17 12:10:31,169 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:10:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-17 12:10:31,242 ] 187 werkzeug - INFO -  * Detected change in 'E:\\MachineLearningProject\\ADVANCE_WAFER_FAULT_DETECTION\\src\\pipeline\\predict_pipeline.py', reloading

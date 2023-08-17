@@ -1,0 +1,17 @@
+[ 2023-08-17 12:09:59,110 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-17 12:09:59,142 ] 187 werkzeug - INFO -  * Debugger PIN: 452-515-414
+[ 2023-08-17 12:09:59,221 ] 95 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:09:59,221 ] 63 root - INFO - Exporting data from mongodb
+[ 2023-08-17 12:10:01,400 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:10:01] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-17 12:10:01,732 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:10:01] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2023-08-17 12:10:02,073 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:10:02] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-08-17 12:10:12,350 ] 72 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-08-17 12:10:12,462 ] 101 root - INFO - Got the data from mongodb
+[ 2023-08-17 12:10:12,463 ] 104 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:10:12,463 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-08-17 12:10:13,705 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-08-17 12:10:13,719 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-08-17 12:10:13,720 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-08-17 12:10:13,720 ] 156 root - INFO - Extracting model config file path
+[ 2023-08-17 12:10:13,720 ] 163 root - INFO - Extracting model config file path
+[ 2023-08-17 12:10:19,187 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\sklearn\\model_selection\\_split.py', reloading

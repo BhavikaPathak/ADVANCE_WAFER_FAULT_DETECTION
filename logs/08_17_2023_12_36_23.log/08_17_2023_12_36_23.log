@@ -1,0 +1,368 @@
+[ 2023-08-17 12:36:33,479 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-17 12:36:33,702 ] 187 werkzeug - INFO -  * Debugger PIN: 452-515-414
+[ 2023-08-17 12:36:38,906 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:36:38] "GET / HTTP/1.1" 200 -
+[ 2023-08-17 12:36:49,143 ] 95 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:36:49,143 ] 63 root - INFO - Exporting data from mongodb
+[ 2023-08-17 12:36:56,272 ] 72 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-08-17 12:36:56,383 ] 101 root - INFO - Got the data from mongodb
+[ 2023-08-17 12:36:56,384 ] 104 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:36:56,384 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-08-17 12:36:57,088 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-08-17 12:36:57,097 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-08-17 12:36:57,099 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-08-17 12:36:57,099 ] 156 root - INFO - Extracting model config file path
+[ 2023-08-17 12:36:57,099 ] 163 root - INFO - Extracting model config file path
+[ 2023-08-17 12:37:05,432 ] 95 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:37:05,432 ] 63 root - INFO - Exporting data from mongodb
+[ 2023-08-17 12:37:10,604 ] 72 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-08-17 12:37:10,766 ] 101 root - INFO - Got the data from mongodb
+[ 2023-08-17 12:37:10,767 ] 104 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-08-17 12:37:10,767 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-08-17 12:37:11,067 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-08-17 12:37:11,068 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-08-17 12:37:11,069 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-08-17 12:37:11,070 ] 156 root - INFO - Extracting model config file path
+[ 2023-08-17 12:37:11,070 ] 163 root - INFO - Extracting model config file path
+[ 2023-08-17 12:38:48,655 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:38:48] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-17 12:38:49,139 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:38:49] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-08-17 12:38:49,348 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:38:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-08-17 12:38:53,548 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+[ 2023-08-17 12:38:53,734 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:38:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-08-17 12:38:54,008 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:38:54] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-17 12:38:54,023 ] 187 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2023 12:38:54] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-17 12:38:54,427 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544b040 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,496 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544a260 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,506 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544bc70 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,523 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544a950 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,527 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544ba60 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,536 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544a590 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,541 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d495448880 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,544 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544beb0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,551 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544b9a0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,555 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d495449510 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,570 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d4952b8f40 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,576 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544b7f0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:03,583 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d4954488b0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:04,252 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d4952b8640 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:04,256 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544ac50 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-08-17 12:39:04,294 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x1d49544bcd0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
